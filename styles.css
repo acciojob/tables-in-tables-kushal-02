@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+body {
+	font-family : "Times New Roman" ;
+}
+.centerData {
+	text-align : center;
+}
+.black{
+	color : white;
+	background-color : black;
+}
+.listSpace {
+	padding-left : 3em;
+}
+.spacingTable{
+	margin : 30px 0;
+}

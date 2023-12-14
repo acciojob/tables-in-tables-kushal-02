@@ -7,8 +7,69 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table border="1" style="width: 100%; height: 100%">
       <!-- Your code here -->
+		<tr>
+			<td>
+                <!-- Nested Table 2 -->
+				<table border="1" width=100%>
+					<tr>
+						<th colspan="2">Nested Table 2</th>
+					</tr>
+					<tr>
+						<th>Column 1</th>
+						<th>Column 2</th>
+					</tr>
+					<tr>
+						<td class="centerData">abc</td>
+						<td class="centerData">def</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+                <!-- Nested Table 1 -->
+				<table border="1" width=100% class="spacingTable">
+					<tr>
+						<th colspan="2">Nested Table 1</th>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+							    <li class="listSpace">List item</li>
+								<li class="listSpace">List item</li>
+								<li class="listSpace">List item</li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<!-- Nested Table 3 -->
+				<table border="1" width="100%" class="spacingTable">
+					
+					 <th colspan="2">Nested Table 3</th>
+					
+					<tr>
+						<td class="centerData">Nested Table</td>
+						<td class="centerData">Demo Continued</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<!-- Nested Table 4 -->
+				<table border="1" width="100%" class="spacingTable">
+					
+					 <th colspan="2">Nested Table 4</th>
+					
+					<tr>
+						
+						<td class="centerData black">HTML</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
     </table>
   </body>
 </html>
